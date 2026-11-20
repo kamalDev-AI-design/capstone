@@ -1,0 +1,18 @@
+SOP-CALL-006: Telephone Intake Procedure
+Version: 1.0
+Effective Date: 2025-08-01
+Status: Active
+
+1. Purpose
+This fictional training SOP describes how the intake operator handles a telephone report.
+
+2. Opening the call
+2.1 Greeting and consent
+Greet the caller and explain that the call details will be typed into the intake form. Telephone calls are not recorded and no speech-to-text is used.
+WARNING: Do not ask for the caller's own telephone number, address or email address.
+
+3. Capturing information
+3.1 Reading back
+Read the lot number back to the caller using the format LOT-NNNNN, digit by digit, to avoid transcription errors.
+3.2 Closing the call
+Tell the caller that a reviewer will follow up if more information is needed. Do not promise outcomes or give medical advice.

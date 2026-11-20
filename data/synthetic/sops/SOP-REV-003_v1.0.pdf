@@ -1,0 +1,63 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1415 >>
+stream
+BT /F1 10 Tf 50 750 Td 14 TL
+(SOP-REV-003: Report Review and Closure Approval) Tj T*
+(Version: 1.0) Tj T*
+(Effective Date: 2025-09-01) Tj T*
+(Status: Active) Tj T*
+() Tj T*
+(1. Purpose) Tj T*
+(This fictional training SOP explains how a report moves from NEW to IN_REVIEW and finally to) Tj T*
+(CLOSED.) Tj T*
+() Tj T*
+(2. Status lifecycle) Tj T*
+(2.1 Allowed transitions) Tj T*
+(A report moves from NEW to IN_REVIEW when a reviewer starts work. A report moves from) Tj T*
+(IN_REVIEW to CLOSED only after a documented human approval.) Tj T*
+(WARNING: A report must never move directly from NEW to CLOSED. A closed report cannot be) Tj T*
+(reopened in this prototype.) Tj T*
+() Tj T*
+(3. Closure approval) Tj T*
+(3.1 Requesting closure) Tj T*
+(The intake operator or reviewer submits a closure request for a report that is IN_REVIEW. The) Tj T*
+(request records who asked and the record version at the time.) Tj T*
+(3.2 Approving closure) Tj T*
+(A different human reviewer approves the request. The person who requested closure cannot) Tj T*
+(approve it. Software agents and AI assistants can never approve closure.) Tj T*
+(EXCEPTION: If the record changed after the request was made, the approval is rejected and) Tj T*
+(closure must be requested again.) Tj T*
+() Tj T*
+(4. Audit) Tj T*
+(Every status change and approval is written to the audit trail with the actor, timestamp and) Tj T*
+(outcome.) Tj T*
+() Tj T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001708 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1778
+%%EOF

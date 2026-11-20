@@ -1,0 +1,7 @@
+.claude/dev_audit.jsonl
+data/*.db*
+data/index*/
+data/*.log
+.venv/
+__pycache__/
+.env

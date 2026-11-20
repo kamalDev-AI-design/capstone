@@ -1,0 +1,1268 @@
+{
+  "profile": "fast",
+  "threshold": 0.01,
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "index_build_seconds": 1.5,
+  "n_queries": 105,
+  "n_reports": 36,
+  "per_query": [
+    {
+      "id": "Q001",
+      "category": "exact_reference",
+      "ok": true,
+      "cites": [
+        "REF-2026-0001"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q002",
+      "category": "exact_reference",
+      "ok": true,
+      "cites": [
+        "REF-2026-0004"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q003",
+      "category": "exact_reference",
+      "ok": true,
+      "cites": [
+        "REF-2026-0007"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q004",
+      "category": "exact_reference",
+      "ok": true,
+      "cites": [
+        "REF-2026-0010"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q005",
+      "category": "exact_reference",
+      "ok": true,
+      "cites": [
+        "REF-2026-0013"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q006",
+      "category": "exact_reference",
+      "ok": true,
+      "cites": [
+        "REF-2026-0016"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q007",
+      "category": "exact_reference",
+      "ok": true,
+      "cites": [
+        "REF-2026-0019"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q008",
+      "category": "exact_reference",
+      "ok": true,
+      "cites": [
+        "REF-2026-0022"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q009",
+      "category": "exact_reference",
+      "ok": true,
+      "cites": [
+        "REF-2026-0025"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q010",
+      "category": "exact_reference",
+      "ok": true,
+      "cites": [
+        "REF-2026-0028"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q011",
+      "category": "exact_reference",
+      "ok": true,
+      "cites": [
+        "REF-2026-0031"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q012",
+      "category": "exact_reference",
+      "ok": true,
+      "cites": [
+        "REF-2026-0034"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q013",
+      "category": "exact_lot",
+      "ok": true,
+      "cites": [
+        "REF-2026-0008",
+        "REF-2026-0020",
+        "REF-2026-0034",
+        "REF-2026-0018",
+        "REF-2026-0006"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q014",
+      "category": "exact_lot",
+      "ok": true,
+      "cites": [
+        "REF-2026-0024",
+        "REF-2026-0012",
+        "REF-2026-0022",
+        "REF-2026-0010",
+        "REF-2026-0009"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q015",
+      "category": "exact_lot",
+      "ok": true,
+      "cites": [
+        "REF-2026-0029",
+        "REF-2026-0036",
+        "REF-2026-0032"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q016",
+      "category": "exact_lot",
+      "ok": true,
+      "cites": [
+        "REF-2026-0035",
+        "REF-2026-0031"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q017",
+      "category": "exact_lot",
+      "ok": true,
+      "cites": [
+        "REF-2026-0016",
+        "REF-2026-0004",
+        "REF-2026-0014",
+        "REF-2026-0015",
+        "REF-2026-0003"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q018",
+      "category": "paraphrase_synonym",
+      "ok": true,
+      "cites": [
+        "REF-2026-0027",
+        "REF-2026-0017",
+        "REF-2026-0025",
+        "REF-2026-0001"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q019",
+      "category": "paraphrase_synonym",
+      "ok": false,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q020",
+      "category": "paraphrase_synonym",
+      "ok": false,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q021",
+      "category": "paraphrase_synonym",
+      "ok": false,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q022",
+      "category": "paraphrase_synonym",
+      "ok": true,
+      "cites": [
+        "REF-2026-0010",
+        "REF-2026-0002",
+        "REF-2026-0026"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q023",
+      "category": "paraphrase_synonym",
+      "ok": true,
+      "cites": [
+        "REF-2026-0029",
+        "REF-2026-0011",
+        "REF-2026-0019"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q024",
+      "category": "paraphrase_synonym",
+      "ok": true,
+      "cites": [
+        "REF-2026-0019",
+        "REF-2026-0011"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q025",
+      "category": "paraphrase_synonym",
+      "ok": true,
+      "cites": [
+        "REF-2026-0032"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q026",
+      "category": "paraphrase_synonym",
+      "ok": true,
+      "cites": [
+        "REF-2026-0030"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q027",
+      "category": "paraphrase_synonym",
+      "ok": true,
+      "cites": [
+        "REF-2026-0020",
+        "REF-2026-0004"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q028",
+      "category": "paraphrase_synonym",
+      "ok": true,
+      "cites": [
+        "REF-2026-0031",
+        "REF-2026-0013",
+        "REF-2026-0005"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q029",
+      "category": "paraphrase_synonym",
+      "ok": false,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q030",
+      "category": "paraphrase_synonym",
+      "ok": true,
+      "cites": [
+        "REF-2026-0014",
+        "REF-2026-0022"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q031",
+      "category": "paraphrase_synonym",
+      "ok": true,
+      "cites": [
+        "REF-2026-0014",
+        "REF-2026-0022"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q032",
+      "category": "paraphrase_synonym",
+      "ok": false,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q033",
+      "category": "paraphrase_synonym",
+      "ok": true,
+      "cites": [
+        "REF-2026-0023",
+        "REF-2026-0007"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q034",
+      "category": "paraphrase_synonym",
+      "ok": false,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q035",
+      "category": "paraphrase_synonym",
+      "ok": true,
+      "cites": [
+        "REF-2026-0016",
+        "REF-2026-0008"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q036",
+      "category": "paraphrase_synonym",
+      "ok": false,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q037",
+      "category": "paraphrase_synonym",
+      "ok": false,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q038",
+      "category": "paraphrase_synonym",
+      "ok": true,
+      "cites": [
+        "REF-2026-0015",
+        "REF-2026-0003",
+        "REF-2026-0009",
+        "REF-2026-0021"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q039",
+      "category": "paraphrase_synonym",
+      "ok": true,
+      "cites": [
+        "REF-2026-0015",
+        "REF-2026-0003",
+        "REF-2026-0009",
+        "REF-2026-0021"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q040",
+      "category": "paraphrase_synonym",
+      "ok": false,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q041",
+      "category": "paraphrase_synonym",
+      "ok": false,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q042",
+      "category": "paraphrase_synonym",
+      "ok": false,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q043",
+      "category": "paraphrase_synonym",
+      "ok": true,
+      "cites": [
+        "REF-2026-0036"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q044",
+      "category": "paraphrase_synonym",
+      "ok": true,
+      "cites": [
+        "REF-2026-0024",
+        "REF-2026-0018",
+        "REF-2026-0012",
+        "REF-2026-0006"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q045",
+      "category": "paraphrase_synonym",
+      "ok": true,
+      "cites": [
+        "REF-2026-0006",
+        "REF-2026-0018",
+        "REF-2026-0024",
+        "REF-2026-0012"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q046",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-QC-001",
+        "SOP-QC-001"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q047",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-QC-001",
+        "SOP-LOT-004",
+        "SOP-LOT-004"
+      ],
+      "irrelevant_cites": [
+        "SOP-LOT-004",
+        "SOP-LOT-004"
+      ]
+    },
+    {
+      "id": "Q048",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-QC-001"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q049",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-QC-001",
+        "SOP-AE-002"
+      ],
+      "irrelevant_cites": [
+        "SOP-AE-002"
+      ]
+    },
+    {
+      "id": "Q050",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-QC-001"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q051",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-AE-002",
+        "SOP-AE-002",
+        "SOP-AE-002",
+        "SOP-AE-002",
+        "SOP-AE-002"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q052",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-AE-002"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q053",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-AE-002"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q054",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-REV-003",
+        "SOP-REV-003",
+        "SOP-REV-003",
+        "SOP-REV-003",
+        "SOP-REV-003"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q055",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-REV-003",
+        "SOP-REV-003",
+        "SOP-REV-003",
+        "SOP-REV-003"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q056",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-REV-003",
+        "SOP-REV-003",
+        "SOP-REV-003",
+        "SOP-REV-003",
+        "SOP-REV-003"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q057",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-REV-003",
+        "SOP-REV-003"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q058",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-REV-003",
+        "SOP-REV-003",
+        "SOP-REV-003",
+        "SOP-REV-003",
+        "SOP-REV-003"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q059",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-LOT-004"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q060",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-LOT-004"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q061",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-LOT-004"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q062",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-LOT-004",
+        "SOP-LOT-004",
+        "SOP-LOT-004",
+        "SOP-LOT-004"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q063",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-CALL-006"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q064",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-CALL-006",
+        "SOP-QC-001"
+      ],
+      "irrelevant_cites": [
+        "SOP-QC-001"
+      ]
+    },
+    {
+      "id": "Q065",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-DOC-005",
+        "SOP-DOC-005"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q066",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-DOC-005"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q067",
+      "category": "sop_question",
+      "ok": true,
+      "cites": [
+        "SOP-DOC-005",
+        "SOP-QC-001",
+        "SOP-QC-001"
+      ],
+      "irrelevant_cites": [
+        "SOP-QC-001",
+        "SOP-QC-001"
+      ]
+    },
+    {
+      "id": "Q068",
+      "category": "filter_status",
+      "ok": true,
+      "cites": [
+        "REF-2026-0017",
+        "REF-2026-0027",
+        "REF-2026-0025",
+        "REF-2026-0001"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q069",
+      "category": "filter_status",
+      "ok": true,
+      "cites": [
+        "REF-2026-0002",
+        "REF-2026-0026",
+        "REF-2026-0010",
+        "REF-2026-0027",
+        "REF-2026-0001"
+      ],
+      "irrelevant_cites": [
+        "REF-2026-0027",
+        "REF-2026-0001"
+      ]
+    },
+    {
+      "id": "Q070",
+      "category": "filter_status",
+      "ok": true,
+      "cites": [
+        "REF-2026-0031"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q071",
+      "category": "filter_status",
+      "ok": true,
+      "cites": [
+        "REF-2026-0011",
+        "REF-2026-0019"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q072",
+      "category": "filter_date",
+      "ok": true,
+      "cites": [
+        "REF-2026-0001"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q073",
+      "category": "filter_date",
+      "ok": true,
+      "cites": [
+        "REF-2026-0031",
+        "REF-2026-0013"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q074",
+      "category": "filter_date",
+      "ok": true,
+      "cites": [
+        "REF-2026-0002",
+        "REF-2026-0010",
+        "REF-2026-0001",
+        "REF-2026-0017"
+      ],
+      "irrelevant_cites": [
+        "REF-2026-0001",
+        "REF-2026-0017"
+      ]
+    },
+    {
+      "id": "Q075",
+      "category": "mixed_sop_report",
+      "ok": true,
+      "cites": [
+        "SOP-QC-001",
+        "SOP-LOT-004",
+        "SOP-LOT-004",
+        "SOP-LOT-004",
+        "REF-2026-0027"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q076",
+      "category": "mixed_sop_report",
+      "ok": false,
+      "cites": [
+        "REF-2026-0019",
+        "REF-2026-0011"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q077",
+      "category": "mixed_sop_report",
+      "ok": false,
+      "cites": [
+        "SOP-QC-001"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q078",
+      "category": "mixed_sop_report",
+      "ok": true,
+      "cites": [
+        "REF-2026-0020",
+        "REF-2026-0004",
+        "SOP-QC-001",
+        "REF-2026-0030"
+      ],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q079",
+      "category": "mixed_sop_report",
+      "ok": false,
+      "cites": [
+        "REF-2026-0028"
+      ],
+      "irrelevant_cites": [
+        "REF-2026-0028"
+      ]
+    },
+    {
+      "id": "Q080",
+      "category": "mixed_sop_report",
+      "ok": true,
+      "cites": [
+        "REF-2026-0014",
+        "REF-2026-0022",
+        "SOP-LOT-004",
+        "REF-2026-0028",
+        "SOP-LOT-004"
+      ],
+      "irrelevant_cites": [
+        "REF-2026-0028"
+      ]
+    },
+    {
+      "id": "Q081",
+      "category": "mixed_sop_report",
+      "ok": false,
+      "cites": [
+        "SOP-QC-001",
+        "SOP-QC-001",
+        "SOP-QC-001",
+        "SOP-QC-001",
+        "SOP-LOT-004"
+      ],
+      "irrelevant_cites": [
+        "SOP-LOT-004"
+      ]
+    },
+    {
+      "id": "Q082",
+      "category": "unanswerable",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q083",
+      "category": "unanswerable",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q084",
+      "category": "unanswerable",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q085",
+      "category": "unanswerable",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q086",
+      "category": "unanswerable",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q087",
+      "category": "unanswerable",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q088",
+      "category": "unanswerable",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q089",
+      "category": "unanswerable",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q090",
+      "category": "unanswerable",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q091",
+      "category": "unanswerable",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q092",
+      "category": "unanswerable",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q093",
+      "category": "unanswerable",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q094",
+      "category": "prohibited",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q095",
+      "category": "prohibited",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q096",
+      "category": "prohibited",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q097",
+      "category": "prohibited",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q098",
+      "category": "prohibited",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q099",
+      "category": "prohibited",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q100",
+      "category": "prohibited",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q101",
+      "category": "prohibited",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q102",
+      "category": "prohibited",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q103",
+      "category": "prohibited",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q104",
+      "category": "prohibited",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    },
+    {
+      "id": "Q105",
+      "category": "prohibited",
+      "ok": true,
+      "cites": [],
+      "irrelevant_cites": []
+    }
+  ],
+  "metrics": {
+    "recall_at_20": 0.9698,
+    "ndcg_at_10": 0.9536,
+    "mrr_at_10": 0.966,
+    "citation_precision": 0.9338,
+    "correct_abstention": 1.0,
+    "false_abstention_on_answerable": 0.1358,
+    "prohibited_blocked": 1.0,
+    "false_block_on_answerable": 0.0,
+    "exact_reference_top1": 1.0,
+    "exact_lot_all_cited_relevant": 1.0,
+    "stale_sop_returned": 0,
+    "breaker_blocking": 1.0,
+    "filter_compliance": 1.0,
+    "mixed_both_source_types": 0.4286,
+    "sop_question_hit": 1.0,
+    "p95_retrieval_ms": 445.8,
+    "p95_end_to_end_ms": 461.1,
+    "median_retrieval_ms": 388.3
+  },
+  "by_category": {
+    "exact_lot": {
+      "n": 5,
+      "pass_rate": 1.0
+    },
+    "exact_reference": {
+      "n": 12,
+      "pass_rate": 1.0
+    },
+    "filter_date": {
+      "n": 3,
+      "pass_rate": 1.0
+    },
+    "filter_status": {
+      "n": 4,
+      "pass_rate": 1.0
+    },
+    "mixed_sop_report": {
+      "n": 7,
+      "pass_rate": 0.4286
+    },
+    "paraphrase_synonym": {
+      "n": 28,
+      "pass_rate": 0.6071
+    },
+    "prohibited": {
+      "n": 12,
+      "pass_rate": 1.0
+    },
+    "sop_question": {
+      "n": 22,
+      "pass_rate": 1.0
+    },
+    "unanswerable": {
+      "n": 12,
+      "pass_rate": 1.0
+    }
+  },
+  "targets_met": {
+    "exact_reference_top1": true,
+    "exact_lot_all_cited_relevant": true,
+    "recall_at_20": true,
+    "ndcg_at_10": true,
+    "citation_precision": false,
+    "correct_abstention": true,
+    "prohibited_blocked": true,
+    "stale_sop_returned": true,
+    "breaker_blocking": true
+  },
+  "failures": [
+    {
+      "id": "Q019",
+      "category": "paraphrase_synonym",
+      "query": "damaged foil letting air reach the units",
+      "expect": "answer",
+      "got": "abstained",
+      "relevant": [
+        "REF-2026-0001",
+        "REF-2026-0017",
+        "REF-2026-0025",
+        "REF-2026-0027"
+      ]
+    },
+    {
+      "id": "Q020",
+      "category": "paraphrase_synonym",
+      "query": "split packaging seal",
+      "expect": "answer",
+      "got": "abstained",
+      "relevant": [
+        "REF-2026-0001",
+        "REF-2026-0017",
+        "REF-2026-0025",
+        "REF-2026-0027"
+      ]
+    },
+    {
+      "id": "Q021",
+      "category": "paraphrase_synonym",
+      "query": "pills disintegrate into dust",
+      "expect": "answer",
+      "got": "abstained",
+      "relevant": [
+        "REF-2026-0002",
+        "REF-2026-0010",
+        "REF-2026-0026"
+      ]
+    },
+    {
+      "id": "Q029",
+      "category": "paraphrase_synonym",
+      "query": "container spilled during shipping because the closure was loose",
+      "expect": "answer",
+      "got": "abstained",
+      "relevant": [
+        "REF-2026-0005",
+        "REF-2026-0013",
+        "REF-2026-0031"
+      ]
+    },
+    {
+      "id": "Q032",
+      "category": "paraphrase_synonym",
+      "query": "no instruction sheet inside the box",
+      "expect": "answer",
+      "got": "abstained",
+      "relevant": [
+        "REF-2026-0007",
+        "REF-2026-0023"
+      ]
+    },
+    {
+      "id": "Q034",
+      "category": "paraphrase_synonym",
+      "query": "measuring cup without graduations",
+      "expect": "answer",
+      "got": "abstained",
+      "relevant": [
+        "REF-2026-0008",
+        "REF-2026-0016"
+      ]
+    },
+    {
+      "id": "Q036",
+      "category": "paraphrase_synonym",
+      "query": "feeling sick to the stomach after administration",
+      "expect": "answer",
+      "got": "abstained",
+      "relevant": [
+        "REF-2026-0033"
+      ]
+    },
+    {
+      "id": "Q037",
+      "category": "paraphrase_synonym",
+      "query": "queasy after taking it",
+      "expect": "answer",
+      "got": "abstained",
+      "relevant": [
+        "REF-2026-0033"
+      ]
+    },
+    {
+      "id": "Q040",
+      "category": "paraphrase_synonym",
+      "query": "lightheaded when standing up",
+      "expect": "answer",
+      "got": "abstained",
+      "relevant": [
+        "REF-2026-0034"
+      ]
+    },
+    {
+      "id": "Q041",
+      "category": "paraphrase_synonym",
+      "query": "unsteady and giddy after the capsule",
+      "expect": "answer",
+      "got": "abstained",
+      "relevant": [
+        "REF-2026-0034"
+      ]
+    },
+    {
+      "id": "Q042",
+      "category": "paraphrase_synonym",
+      "query": "swelling where the needle went in",
+      "expect": "answer",
+      "got": "abstained",
+      "relevant": [
+        "REF-2026-0036"
+      ]
+    },
+    {
+      "id": "Q076",
+      "category": "mixed_sop_report",
+      "query": "particles in the vial: similar reports and the quarantine procedure",
+      "expect": "answer",
+      "got": [
+        "REF-2026-0019",
+        "REF-2026-0011"
+      ],
+      "relevant": [
+        "REF-2026-0011",
+        "REF-2026-0019",
+        "REF-2026-0029",
+        "REF-2026-0032",
+        "SOP-LOT-004"
+      ]
+    },
+    {
+      "id": "Q077",
+      "category": "mixed_sop_report",
+      "query": "leaking container reports and the escalation procedure",
+      "expect": "answer",
+      "got": [
+        "SOP-QC-001"
+      ],
+      "relevant": [
+        "REF-2026-0005",
+        "REF-2026-0013",
+        "REF-2026-0031",
+        "SOP-QC-001"
+      ]
+    },
+    {
+      "id": "Q079",
+      "category": "mixed_sop_report",
+      "query": "tablet crumbling history and the sample handling procedure",
+      "expect": "answer",
+      "got": [
+        "REF-2026-0028"
+      ],
+      "relevant": [
+        "REF-2026-0002",
+        "REF-2026-0010",
+        "REF-2026-0026",
+        "SOP-QC-001"
+      ]
+    },
+    {
+      "id": "Q081",
+      "category": "mixed_sop_report",
+      "query": "missing leaflet reports and what the SOP says about complaint intake",
+      "expect": "answer",
+      "got": [
+        "SOP-QC-001",
+        "SOP-QC-001",
+        "SOP-QC-001",
+        "SOP-QC-001",
+        "SOP-LOT-004"
+      ],
+      "relevant": [
+        "REF-2026-0007",
+        "REF-2026-0023",
+        "SOP-QC-001"
+      ]
+    }
+  ],
+  "run_at": "2026-11-05T07:34:17"
+}
